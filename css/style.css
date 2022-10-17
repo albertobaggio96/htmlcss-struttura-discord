@@ -8,11 +8,14 @@
   margin: 0 auto;
 }
 
+/* header section */
+
 header{
   background-color: blue;
   padding-bottom: .5rem;
 }
 
+/* nav section */
 header nav{
   display: flex;
   justify-content: space-between;
@@ -28,6 +31,9 @@ header ul{
 header ul li{
   margin-left: 1rem;
 }
+/* end nav section */
+
+/* main title */
 
 header h1{
   background-color: rgb(233, 152, 165);
@@ -35,7 +41,9 @@ header h1{
   height: 20rem;
   margin: 1rem auto;
 }
+/* end title section */
 
+/* reverse section */
 main section.row{
   display: flex;
   height: 20rem;
@@ -62,7 +70,13 @@ main section.reverse{
   padding: .5rem 0;
 }
 
-.green{
+/* end reverse section */
+
+/* green section */
+
+section.green{
   background-color: green;
   height: 20rem;
 }
+
+/* end green section */
