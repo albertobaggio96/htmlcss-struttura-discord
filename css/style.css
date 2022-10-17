@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-/* header section */
+/* header */
 
 header{
   background-color: blue;
@@ -42,6 +42,9 @@ header h1{
   margin: 1rem auto;
 }
 /* end title section */
+/* end header */
+
+/* main */
 
 /* reverse section */
 main section.row{
@@ -80,3 +83,33 @@ section.green{
 }
 
 /* end green section */
+/* end main */
+
+/* footer */
+
+footer{
+  background-color: black;
+}
+/* head footer */
+footer section.staff{
+  display: flex;
+}
+
+div.magenta,
+div.acqua{
+  height: 15rem;
+}
+
+div.magenta{
+  background-color: magenta;
+  flex-grow: 2;
+}
+
+div.acqua{
+  background-color: aqua;
+  border: 1px solid white;
+  flex-grow: 1;
+}
+
+/* end head footer */
+
