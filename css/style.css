@@ -12,7 +12,7 @@
 
 header{
   background-color: blue;
-  padding-bottom: .5rem;
+  padding: .5rem 0;
 }
 
 /* nav section */
@@ -20,7 +20,7 @@ header nav{
   display: flex;
   justify-content: space-between;
   background-color: orange;
-  padding: .5rem;
+  padding: .5rem; 
 }
 
 header ul{
@@ -89,10 +89,12 @@ section.green{
 
 footer{
   background-color: black;
+  padding-top: 1rem;
 }
 /* head footer */
 footer section.staff{
   display: flex;
+  margin-bottom: 2rem;
 }
 
 div.magenta,
@@ -112,4 +114,12 @@ div.acqua{
 }
 
 /* end head footer */
+/* last logo */
 
+section.last-logo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: .5rem 0;
+  background-color: aquamarine;
+}
