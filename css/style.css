@@ -11,15 +11,18 @@
 /* header */
 
 header{
-  background-color: blue;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
   padding: .5rem 0;
+  color: white;
+  height: 25rem;
 }
 
 /* nav section */
 header nav{
   display: flex;
   justify-content: space-between;
-  background-color: orange;
+  align-items: center;
   padding: .5rem; 
 }
 
@@ -31,16 +34,36 @@ header ul{
 header ul li{
   margin-left: 1rem;
 }
+
+header button{
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: .5rem .5rem;
+}
 /* end nav section */
 
 /* main title */
-
-header h1{
-  background-color: rgb(233, 152, 165);
-  width: 80%;
-  height: 20rem;
-  margin: 1rem auto;
+.title-container{
+  margin: 2rem 6rem;
+  text-align: center;
 }
+
+header p{
+  margin: 1.5rem 0 1rem 0;
+}
+
+section.title-container button{
+  margin-right: 1rem;
+  padding: .6rem .9rem;
+}
+
+section.title-container button:last-child{
+  background-color: black;
+  color: white;
+}
+
+
 /* end title section */
 /* end header */
 
