@@ -23,12 +23,20 @@ header{
   height: 25rem;
 }
 
+button{
+  border: none;
+  border-radius: 15px;
+  padding: .5rem .5rem;
+  padding: .6rem .9rem;
+}
+
 /* nav section */
 header nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: .5rem; 
+  font-size: 0.7rem;
 }
 
 header ul{
@@ -40,11 +48,9 @@ header ul li{
   margin-left: 1rem;
 }
 
-header button{
+header nav button{
   background-color: white;
-  border: none;
-  border-radius: 15px;
-  padding: .5rem .5rem;
+
 }
 /* end nav section */
 
@@ -64,7 +70,6 @@ header p{
 
 section.title-container button{
   margin-right: 1rem;
-  padding: .6rem .9rem;
 }
 
 section.title-container button:last-child{
@@ -76,6 +81,10 @@ section.title-container button:last-child{
 /* end header */
 
 /* main */
+
+main .container{
+  margin: 5rem auto;
+}
 
 /* reverse section */
 main section.row{
@@ -109,19 +118,37 @@ main section.reverse{
 
 /* end reverse section */
 
-/* green section */
+/* keep in touch section */
+
+section.keep-in-touch{
+  text-align: center;
+}
+
+section.keep-in-touch h2{
+  margin-bottom: 1rem;
+}
+
+section.keep-in-touch h3{
+  line-height: 3rem;
+  width: 35%;
+  margin: 0 auto;
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+section.keep-in-touch button{
+  background-color: blueviolet;
+  color: white;
+}
 
 
 
-/* end green section */
+/* end keep in touch section */
 /* end main */
 
 /* footer */
 
-footer{
-  background-color: black;
-  padding-top: 1rem;
-}
 /* head footer */
 footer section.staff{
   display: flex;
@@ -154,6 +181,8 @@ section.last-logo{
   padding: .5rem 0;
   background-color: aquamarine;
 }
+
+
 
 /* end last logo */
 /* end footer */
