@@ -50,7 +50,7 @@ header button{
 
 /* main title */
 .title-container{
-  margin: 2rem 6rem;
+  margin: 2rem 8rem;
   text-align: center;
 }
 
@@ -72,7 +72,6 @@ section.title-container button:last-child{
   color: white;
 }
 
-
 /* end title section */
 /* end header */
 
@@ -81,19 +80,22 @@ section.title-container button:last-child{
 /* reverse section */
 main section.row{
   display: flex;
-  height: 20rem;
+  justify-content: space-between;
   margin: 2rem 0;
 }
 
-div.blue{
-  flex-grow: 2;
-  background-color: blue;
-  
+section.row img{
+  width: 60%;
 }
 
-div.pink{
-  flex-grow: 1;
-  background-color: pink;
+div.description-container{
+  width: 30%;
+}
+
+div.description-container h2{
+  font-size: 2rem;
+  margin: 1.5rem 0 1rem 0;
+
 }
 
 main section.reverse{
@@ -101,7 +103,7 @@ main section.reverse{
 }
 
 .gray{
-  background-color: gray;
+  background-color: lightgray;
   padding: .5rem 0;
 }
 
@@ -109,10 +111,7 @@ main section.reverse{
 
 /* green section */
 
-section.green{
-  background-color: green;
-  height: 20rem;
-}
+
 
 /* end green section */
 /* end main */
