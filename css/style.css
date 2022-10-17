@@ -15,6 +15,7 @@ body{
 
 ul li{
   margin-left: 1rem;
+  list-style: none;
 }
 
 button{
@@ -45,7 +46,6 @@ header nav{
 
 header ul{
   display: flex;
-  list-style: none;
 }
 
 header nav button{
@@ -152,13 +152,15 @@ section.keep-in-touch button{
 
   }
 /* head footer */
-footer section.staff{
+footer div.staff{
   display: flex;
   padding: 2rem 0; 
+  justify-content: space-between;
 }
 
-div.lenguage-social{
-  flex-grow: 1  ;
+section.lenguage-social{
+  flex-grow: 2;
+  padding-right: 6rem;
 }
 
 .staff h4{
@@ -183,13 +185,12 @@ figure.social-icon img{
   margin-right: 1.5rem;
 }
 
+/* colonne */
 
-div.acqua{
-  background-color: aqua;
-  border: 1px solid white;
+section.list{
   flex-grow: 1;
-  height: 15rem;
 }
+
 
 /* end head footer */
 /* last logo */
@@ -201,6 +202,8 @@ section.last-logo{
   padding: .5rem 0;
   background-color: aquamarine;
 }
+
+
 
 
 
