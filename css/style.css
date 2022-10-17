@@ -10,6 +10,7 @@
 
 header{
   background-color: blue;
+  padding-bottom: .5rem;
 }
 
 header nav{
@@ -38,6 +39,7 @@ header h1{
 main section.row{
   display: flex;
   height: 20rem;
+  margin: 2rem 0;
 }
 
 div.blue{
@@ -50,3 +52,13 @@ div.pink{
   flex-grow: 1;
   background-color: pink;
 }
+
+main section.reverse{
+  flex-direction: row-reverse;
+}
+
+.gray{
+  background-color: gray;
+  padding: .5rem 0;
+}
+
