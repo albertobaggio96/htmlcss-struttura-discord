@@ -191,6 +191,9 @@ section.list{
   flex-grow: 1;
 }
 
+footer li:first-child{
+  color: blueviolet;
+}
 
 /* end head footer */
 /* last logo */
@@ -198,10 +201,15 @@ section.list{
 section.last-logo{
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
-  padding: .5rem 0;
-  background-color: aquamarine;
+  padding: 1rem 0;
+
 }
+
+footer button{
+  background-color: blueviolet;
+  color: white;
+}
+
 
 
 
