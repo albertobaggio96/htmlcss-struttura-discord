@@ -3,14 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+.container{
   width: 70%;
-  margin: 1rem auto;
+  margin: 0 auto;
+}
+
+header{
+  background-color: blue;
 }
 
 header nav{
   display: flex;
   justify-content: space-between;
+  background-color: orange;
+  padding: .5rem;
 }
 
 header ul{
@@ -20,4 +26,11 @@ header ul{
 
 header ul li{
   margin-left: 1rem;
+}
+
+header h1{
+  background-color: pink;
+  width: 80%;
+  height: 20rem;
+  margin: 1rem auto;
 }
