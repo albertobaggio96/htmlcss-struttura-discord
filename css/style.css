@@ -29,8 +29,24 @@ header ul li{
 }
 
 header h1{
-  background-color: pink;
+  background-color: rgb(233, 152, 165);
   width: 80%;
   height: 20rem;
   margin: 1rem auto;
+}
+
+main section.row{
+  display: flex;
+  height: 20rem;
+}
+
+div.blue{
+  flex-grow: 2;
+  background-color: blue;
+  
+}
+
+div.pink{
+  flex-grow: 1;
+  background-color: pink;
 }
