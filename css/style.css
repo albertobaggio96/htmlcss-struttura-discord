@@ -137,6 +137,10 @@ section.keep-in-touch h3{
   background-repeat: no-repeat;
 }
 
+section.keep-in-touch img{
+  width: 90%;
+}
+
 section.keep-in-touch button{
   background-color: #899ddf;
   color: white;
