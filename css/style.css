@@ -112,7 +112,7 @@ main section.reverse{
 }
 
 .gray{
-  background-color: lightgray;
+  background-color: #f6f6f6;
   padding: .5rem 0;
 }
 
@@ -151,7 +151,10 @@ section.keep-in-touch button{
     color: white;
 
   }
-/* head footer */
+
+/*  head footer */
+
+/* lenguage and social contact */
 footer div.staff{
   display: flex;
   padding: 2rem 0; 
@@ -185,7 +188,9 @@ figure.social-icon img{
   margin-right: 1.5rem;
 }
 
-/* colonne */
+/* end lenguage and social contact */
+
+/* column footer list */
 
 section.list{
   flex-grow: 1;
@@ -195,7 +200,10 @@ footer li:first-child{
   color: blueviolet;
 }
 
-/* end head footer */
+/* end column footer list */
+/*  end head footer */
+
+
 /* last logo */
 
 section.last-logo{
@@ -209,11 +217,5 @@ footer button{
   background-color: blueviolet;
   color: white;
 }
-
-
-
-
-
-
 /* end last logo */
 /* end footer */
