@@ -138,7 +138,7 @@ section.keep-in-touch h3{
 }
 
 section.keep-in-touch button{
-  background-color: blueviolet;
+  background-color: #899ddf;
   color: white;
 }
 
@@ -147,7 +147,7 @@ section.keep-in-touch button{
 
 /* footer */
   footer{
-    background-color: black;
+    background-color: #23272a;
     color: white;
 
   }
@@ -177,7 +177,7 @@ img.ita{
 }
 
 select{
-  background-color: black;
+  background-color: #23272a;
   border: none;
   color: white;
 }
@@ -196,8 +196,9 @@ section.list{
   flex-grow: 1;
 }
 
+footer h4,
 footer li:first-child{
-  color: blueviolet;
+  color: #7289da;
 }
 
 /* end column footer list */
@@ -209,12 +210,12 @@ footer li:first-child{
 section.last-logo{
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 1rem 0 2rem 0;
 
 }
 
 footer button{
-  background-color: blueviolet;
+  background-color: #899ddf;
   color: white;
 }
 /* end last logo */
