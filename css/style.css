@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  width: 70%;
+  margin: 1rem auto;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul{
+  display: flex;
+  list-style: none;
+}
+
+header ul li{
+  margin-left: 1rem;
+}
