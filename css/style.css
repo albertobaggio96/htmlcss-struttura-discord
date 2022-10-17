@@ -13,6 +13,16 @@ body{
   margin: 0 auto;
 }
 
+ul li{
+  margin-left: 1rem;
+}
+
+button{
+  border: none;
+  border-radius: 15px;
+  padding: .5rem .5rem;
+  padding: .6rem .9rem;
+}
 /* header */
 
 header{
@@ -23,12 +33,6 @@ header{
   height: 25rem;
 }
 
-button{
-  border: none;
-  border-radius: 15px;
-  padding: .5rem .5rem;
-  padding: .6rem .9rem;
-}
 
 /* nav section */
 header nav{
@@ -42,10 +46,6 @@ header nav{
 header ul{
   display: flex;
   list-style: none;
-}
-
-header ul li{
-  margin-left: 1rem;
 }
 
 header nav button{
@@ -142,33 +142,53 @@ section.keep-in-touch button{
   color: white;
 }
 
-
-
 /* end keep in touch section */
 /* end main */
 
 /* footer */
+  footer{
+    background-color: black;
+    color: white;
 
+  }
 /* head footer */
 footer section.staff{
   display: flex;
-  margin-bottom: 2rem;
+  padding: 2rem 0; 
 }
 
-div.magenta,
-div.acqua{
-  height: 15rem;
+div.lenguage-social{
+  flex-grow: 1  ;
 }
 
-div.magenta{
-  background-color: magenta;
-  flex-grow: 2;
+.staff h4{
+  font-size: 1.5rem;
 }
+
+img.ita{
+  width: 1.5rem;
+  margin: 1rem 0;
+  vertical-align: middle;
+}
+
+select{
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+figure.social-icon img{
+  width: 1.5rem;
+  border-radius: 5px;
+  margin-right: 1.5rem;
+}
+
 
 div.acqua{
   background-color: aqua;
   border: 1px solid white;
   flex-grow: 1;
+  height: 15rem;
 }
 
 /* end head footer */
